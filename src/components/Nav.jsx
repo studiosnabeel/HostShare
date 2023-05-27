@@ -13,14 +13,14 @@ const Nav = () => {
       {/* Left  */}
       <div>
         <img
-          className="hidden md:inline-flex lg:hidden h-8 lg:h-8 xl:h-10"
+          className="hidden md:inline-flex lg:hidden h-8 lg:h-8 xl:h-10 cursor-pointer"
           src={logomini}
           alt="HostShare logo"
         />
         <img
           src={logo}
           alt=""
-          className="hidden lg:inline-flex h-8 lg:h-8 xl:h-10"
+          className="hidden lg:inline-flex h-8 lg:h-8 xl:h-10 cursor-pointer"
         />
       </div>
       {/* Middle  */}
