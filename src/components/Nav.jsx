@@ -4,12 +4,12 @@ import {
   GlobeAltIcon,
   MenuIcon,
   UserCircleIcon,
+  AdjustmentsIcon,
 } from '@heroicons/react/solid';
-import { AdjustmentsIcon } from '@heroicons/react/solid';
 
 const Nav = () => {
   return (
-    <header className="p-4 md:shadow-md sticky flex items-center md:justify-evenly lg:justify-between space-x-4 w-full">
+    <header className="p-4 md:shadow-md sticky flex items-center md:justify-evenly lg:justify-between space-x-4 w-ful lg:px-12">
       {/* Left  */}
       <div>
         <img
