@@ -9,9 +9,9 @@ import {
 
 const Nav = () => {
   return (
-    <header className="p-4 md:shadow-md sticky flex items-center md:justify-evenly lg:justify-between space-x-4 w-ful lg:px-12">
+    <header className="p-4 md:shadow-md sticky  flex items-center md:justify-evenly lg:justify-between space-x-4 w-ful lg:px-12">
       {/* Left  */}
-      <div>
+      <div className="">
         <img
           className="hidden md:inline-flex lg:hidden h-8 lg:h-8 xl:h-10 cursor-pointer"
           src={logomini}
