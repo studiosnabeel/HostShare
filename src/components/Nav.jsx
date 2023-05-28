@@ -38,7 +38,7 @@ const Nav = () => {
             <span className="hidden md:inline-flex text-gray-400">|</span>
             <h2 className="md:text-gray-600">Add guests </h2>
           </div>
-          <SearchIcon className="hidden md:inline-flex h-5 w-5 bg-red-500 text-white rounded-full p-[4px] " />
+          <SearchIcon className="hidden md:inline-flex h-5 w-5 bg-[#329a9a] text-white rounded-full p-[4px] " />
         </div>
         {/* Mobile right */}
         <AdjustmentsIcon className="h-6 text-gray-600 md:hidden md:w-0" />
